@@ -2,9 +2,10 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import CreateRoom from "./pages/CreateRoom";
 import JoinRoom from "./pages/Joinroom";
-import ChatRoom from "./pages/ChatRoom";
+
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import ChatRoom from "./pages/ChatRoom";
 
 
 function App() {
