@@ -1,0 +1,61 @@
+realtime-chat-app/
+├── backend/
+│   ├── controllers/
+│   │   └── authController.js
+│   ├── models/
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── chatRoutes.js
+│   ├── sockets/
+│   │   └── socket.js
+│   ├── config/
+│   │   └── db.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+
+├── frontend/
+│   ├── public/
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   ├── ChatRoom.jsx
+│   │   │   ├── RandomGroupChat.jsx
+│   │   │   └── Message.jsx
+│   │   ├── pages/
+│   │   │   ├── HomePage.jsx
+│   │   │   ├── RoomPage.jsx
+│   │   │   └── RandomPage.jsx
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   ├── routes/
+│   │   │   └── AppRoutes.jsx
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── sockets/
+│   │   │   └── socket.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── .env
+│   ├── vite.config.js
+│   └── package.json
+
+├── README.md
+└── .gitignore
+
+
+Libraries to be installed in the projects 
+npm install react-icons
+npm install clsx
+npm install chart.js react-chartjs-2
+npm install @headlessui/react
+npm install @heroicons/react
+npm install @tailwindcss/forms
